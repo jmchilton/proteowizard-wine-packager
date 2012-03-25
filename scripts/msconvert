@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PWIZ_DIR=/usr/share/pwiz
+
+export WINEPREFIX=$HOME/.wine-pwiz
+if [ ! -e $WINEPREFIX ];
+then
+        mkdir $WINEPREFIX
+        tar xzf $PWIZ_DIR/wine-bundle.tar.gz -C $WINEPREFIX
+fi
+wine $PWIZ_DIR/msconvert.exe $*

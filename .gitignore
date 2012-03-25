@@ -1,0 +1,4 @@
+# Ignore download and packages
+pwiz*
+# Ignore working contents directory
+contents

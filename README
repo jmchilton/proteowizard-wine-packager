@@ -1,0 +1,4 @@
+For legal reasons, one cannot distribute Linux packages for
+proteowizard because of all of the Microsoft licensed
+dependencies. But this project can hopefully help build private
+packages for local use.
